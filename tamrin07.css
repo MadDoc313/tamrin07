@@ -1,0 +1,183 @@
+ul{
+
+    position: relative;
+    top: 0px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200vw;
+}
+.navc{
+
+   position: relative;
+    background-color: rgb(47, 48, 48);
+    height: 7vh;
+    width: 100vw;
+    left: 0vw;
+    top: 0vh;
+    margin-bottom: 1vh;
+    box-shadow: 0px 5px 10px 5px darkgray;
+}
+.list{
+    display: inline;
+    float: left;
+    
+}
+.list-a{
+    position: relative;
+    background-color: rgb(57, 122, 33);
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 70;
+    padding: .5vw 4vh;
+    margin: 1vh;
+    font-size: 2vh;
+    border-radius: 0 50px;
+    transition: .6s;
+}
+.greenbar{
+    position: absolute;
+    background-color: rgb(57, 122, 33);
+    top: 5vh;
+    width: 100vw;
+    height: 2vh;
+}
+.list-a:hover{
+    border-radius: 50px 0px;
+    color: maroon;
+}
+.main{
+    position: relative;
+    top: 10vh;
+    left: 3vh;
+    width: 60%;
+    height: max-content;
+    border-radius: 0px 50px;
+    padding: 20px;
+    border: 1px solid rgba(180, 173, 173, 0.7);
+    backdrop-filter: blur(8px);
+    box-shadow: 5px 5px 20px 5px rgba(30, 29, 29, 0.6);
+}
+.body{ 
+  
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./untitled5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.side{
+    position: relative;
+    float: right;
+    top: 10vh;
+    right: 3vh;
+    width: 30%;
+    height: 50vh;
+    border-radius: 0px 50px;
+    padding: 20px;
+    border: 1px solid rgba(180, 173, 173, 0.7);
+    backdrop-filter: blur(8px);
+    box-shadow: 5px 5px 20px 5px rgba(30, 29, 29, 0.6);
+}
+.side-section{
+    margin: 20px;
+   
+    height: 40%;
+    width: 90%;
+    background-color: rgba(59, 60, 60, 0.337);
+    border: ridge .5PX;
+    border-radius: 50PX;
+clear: both;
+}
+div > h1{
+    font-size: 40px;
+    color: rgba(236, 230, 230, 0.7);
+    text-shadow: 1px 1px 2px rgb(26, 26, 26);
+}
+h1 + p {
+ text-indent: 50px;
+ color: whitesmoke;
+ font-weight: 100px;
+ text-align: justify;
+ font-size: 20px;
+}
+h1 ~ p {
+    color: rgba(206, 210, 253, 0.884);
+    text-shadow: 1px 1px 2px rgb(26, 26, 26);
+}
+h2{
+    font-size: 30px;
+    color: rgba(236, 230, 230, 0.7);
+    text-shadow: 1px 1px 2px rgb(26, 26, 26);
+}
+h2 ~ p {
+    color: rgba(206, 210, 253, 0.884);
+    text-shadow: 1px 1px 2px rgb(26, 26, 26);
+    font-size: 20px;
+}
+h2 + p{
+    color: antiquewhite;
+    text-shadow: 1px 1px 2px rgb(26, 26, 26);
+    text-indent: 50px;
+    font-size: 20px;
+}
+.inputname{
+    position: relative;
+    width: 500px;
+    margin: 35px;
+}
+.inputname input{
+    width: 20vw;
+    height: 2vh;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: rgba(228, 228, 228, 0.5);
+    border-radius: 10px;
+    outline: none;
+    color: hsl(240, 100%, 25%);
+}
+.inputname span{
+    position: absolute;
+    left:0;
+    padding: 10px;
+    color: hsl(0, 0%, 38%);
+    text-transform: uppercase;
+}
+.inputname input:valid ~ span , .inputname input:focus ~ span{
+    color: rgb(197, 255, 255);
+    transform: translateX(10px) translateY(-11px) ;
+    font-size: .8em;
+    padding: 5PX 10PX;
+    background-color: rgba(128, 128, 128, 0.7);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    letter-spacing: .2em;
+    backdrop-filter: blur(300px);
+    
+}
+.inputname:nth-child(2) input:valid ~ span , .inputname:nth-child(2) input:focus ~ span{
+    border-radius: 10px;
+    border: 3px dashed rgba(255, 255, 255, 0.25);
+}
+.sign-in{
+    position: absolute;
+    top: 50vh;
+    right: 15vw;
+    padding: .5vh .9vw;
+    color: rgba(92, 91, 91, 0.822);
+    background-color: rgba(228, 228, 228, 0.5);
+    border-radius: 300px;
+    border-color: aliceblue;
+    box-shadow: -5px -5px 10px rgba(160, 160, 160, 0.8) , 5px 5px 5px rgba(0, 0, 0, 0.25) ;
+}
+.sign-in:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: -1px -1px 5px rgba(92, 91, 91, 0.6) , 1px 1px 5px rgba(0, 0, 0, 0.3), inset -2px -2px 5px rgb(214, 214, 214, 1) , inset 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
